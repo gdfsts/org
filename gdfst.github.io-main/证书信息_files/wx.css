@@ -1,0 +1,65 @@
+hp100{height: 100%;}
+
+.f-tips{color:#f76260;}
+/*******search*********/
+.weui-cell.hide{display: none;}
+.weui-label i{display:none;}
+.weui-label.required i{display:inline;color:#d14;margin-right:3px;}
+.weui-uploader__title i{color:#d14;margin-right:5px;}
+.search-header{  padding: 0;margin-bottom:35px;}
+.search-header .title{   
+	text-align: center;
+    font-size: 26px;
+    padding:5px 0;
+    color: #FFF;
+    font-weight: 400;
+     background: #0180cf;
+}
+.placeholder {
+	    margin: 5px 15px;
+	    padding: 0 10px;
+	    background-color: #ebebeb;
+	    height: 2.3em;
+	    line-height: 2.3em;
+	    text-align: center;
+	    color: #cfcfcf;
+}
+.placeholder input{    
+    width: 100%;
+    height: 2.7em;
+    border: 0;
+    background: none;
+    outline: none;
+}
+.pay-header {
+    padding: 35px 0;
+}
+.pay-title {
+    text-align: center;
+    font-size: 34px;
+    color: #3cc51f;
+    font-weight: 400;
+    margin: 0 15%;
+}
+.noborder.weui-form-preview:after{border:0;}
+.m-font{font-size:0.75rem;}
+.wx-detail{padding:20px 10px 10px 60px;font-size:0.65rem;color:#666;}
+.weui-form-preview__value{color:#666;}
+.wx-detail-desc{padding: 0px 10px 10px 0px;}
+
+/*******iconfont icons************/
+@font-face {
+  font-family: 'iconfont';  /* project id 477774 */
+  src: url('//at.alicdn.com/t/font_477774_h5znyg1vx42w3ik9.eot');
+  src: url('//at.alicdn.com/t/font_477774_h5znyg1vx42w3ik9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_477774_h5znyg1vx42w3ik9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_477774_h5znyg1vx42w3ik9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_477774_h5znyg1vx42w3ik9.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:26px;font-style:normal;
+    color: #69a6d1;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
